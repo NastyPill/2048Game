@@ -1,0 +1,76 @@
+html, body {
+	height : 100%;
+	width : 100%;
+	background-color : FEFFE4;
+}
+
+.container {
+	position : relative;
+	display : flex;
+	align-items : center;
+	flex-direction : column;
+	height : 100%;
+	width : 100%;
+}
+
+.container .header {
+	font-weight : bold;
+	color : DEB887;
+	background-color : FEFFE4;
+	display : flex;
+	position : relative;
+	flex-direction : row;
+	height : 20vmin;
+	width : 80vmin;
+	box-sizing : border-box;
+}
+
+.container .header .score-container {
+	color : 0f0f0f;
+	margin-top : 4vmin;
+	display : flex;
+	flex-direction : row;
+	float : right;
+	margin-left : 23vmin;
+	font-size : 4vmin;
+}
+
+.container .header .score-container .score , .best {
+	display : flex;
+	flex-direction : column;
+	position : relative;
+	align-items : center;
+	background-color : bbada0;
+	border-radius : 1vmin;
+	height : 10vmin;
+
+	margin : 1vmin;
+}
+
+.container .header .name {
+	font-size : 10vmin;
+	margin : 3vmin;
+}
+
+.container .field {
+	background-color : b0a290;
+	border-radius : 1vmin;
+	flex-wrap : wrap;
+	flex-direction : row;
+	display : flex;
+	height : 82vmin;
+	width : 80vmin;
+}
+
+.container .field .cell {
+	display : flex;
+	align-items : center;
+	justify-content : center;
+	margin : 1vmin;	
+	height : 18vmin;
+	width : 18vmin;
+	box-sizing : border-box;
+	background-color : bfafa5	;
+	border-radius : 1vmin;
+	font-size : 10vmin;
+}
