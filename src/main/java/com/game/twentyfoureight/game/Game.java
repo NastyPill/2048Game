@@ -72,7 +72,7 @@ public class Game {
         gameIsOver = gameOver();
     }
 
-    private Boolean gameOver() {
+    public Boolean gameOver() {
         for (Directions dir : Directions.values()) {
             if (field.abilityToSwipe(dir) || field.haveEmptyCells()) {
                 return false;

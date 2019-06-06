@@ -25,6 +25,7 @@ public class CellUi extends JLabel {
             new Color(0xed, 0xc2, 0x2e),
             new Color(0x3c, 0x3a, 0x32),
     };
+
     private static final Color[] FG = {
             new Color(0xcc, 0xc0, 0xb3),
             null,

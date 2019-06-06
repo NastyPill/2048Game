@@ -4,6 +4,8 @@ import com.game.twentyfoureight.game.Game;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
@@ -59,6 +61,13 @@ public class TitleFrame extends JFrame {
             public void mouseClicked(MouseEvent e) {
                 setVisible(false);
                 prepareFrame(new Game(4), true);
+            }
+        });
+
+        tf.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                tf.setText("");
             }
         });
 

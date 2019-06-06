@@ -2,7 +2,7 @@ package com.game.twentyfoureight.bot;
 
 import com.game.twentyfoureight.game.*;
 
-public class Bot {
+public class Bot{
 
     Game currentGame;
 

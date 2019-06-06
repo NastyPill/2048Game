@@ -14,6 +14,11 @@ public class Field implements Cloneable {
         initialization();
     }
 
+    public Field(Cell[][] field) {
+        this.size = field.length;
+        this.field = field;
+    }
+
     private void initialization() {
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
